@@ -1,24 +1,73 @@
-# README
+# "Hello world" project with rails-react gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Built using **_react-rails_** gem.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- Ruby on Rails
+- ReactJS
+- Redux Toolkit
 
-* System dependencies
+## Getting Started
 
-* Configuration
+- Getting a local copy is simple. Follow the steps below
 
-* Database creation
+### Install
 
-* Database initialization
+- Ruby
+- Ruby on Rails
+- PostgresSQL
+- Rspec
 
-* How to run the test suite
+### Local Copy
 
-* Services (job queues, cache servers, search engines, etc.)
+- Clone the project
 
-* Deployment instructions
+```
+git clone https://github.com/anuarshaidenov/hello-rails-react.git
 
-* ...
+cd hello-rails-react
+
+```
+
+### Setup
+
+Install gems:
+
+```
+bundle install
+```
+
+Setup database:
+
+```
+rails db:create
+rails db:migrate
+```
+
+### Usage
+
+Start server:
+
+```
+rails server
+```
+
+Visit http://localhost:3000/ in your browser.
+
+## Authors
+
+👤 **Anuar Shaidenov**
+
+- GitHub: [@anuarshaidenov](https://github.com/anuarshaidenov)
+- Twitter: [@anuarnyi](https://twitter.com/anuarnyi)
+- LinkedIn: [Anuar Shaidenov](https://www.linkedin.com/in/anuar-shaidenov-365a951b8/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
