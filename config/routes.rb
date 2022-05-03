@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -6,8 +8,8 @@ Rails.application.routes.draw do
     get 'greetings', to: 'greetings#index'
   end
 
-  get '*page', to: 'static#index', constraints: ->(req) do
+  get '*page', to: 'static#index', constraints: lambda { |req|
     !req.xhr? && req.format.html?
-  end
-  root "static#index"
+  }
+  root 'static#index'
 end
